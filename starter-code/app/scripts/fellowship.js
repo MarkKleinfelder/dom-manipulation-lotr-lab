@@ -152,9 +152,11 @@ function forgeTheFellowShip() {
 var newDiv = document.createElement('div');
 newDiv.id="the-fellowship";
 document.getElementById('middle-earth').childNodes[1].appendChild(newDiv);
+newDiv.appendChild(document.createElement('ul'));
 
 for (var i = 0; i < hobbits.length; i++){
-  newDiv.append(document.createElement('li').innerHTML = hobbits[i]);
+  var hoLi = newDiv.appendChild(document.createElement('li'));
+  hoLi.innerHTML = hobbits[i];
 
 };
 
