@@ -51,6 +51,7 @@ function makeHobbits() {
   // display an unordered list of hobbits in the shire (which is the first article tag on the page)
   // give each hobbit a class of hobbit
 
+//SEEMS TO BE WORKING!
 //var hobbitUl = document.createElement('UL');
 //var hobLi;
 var ul = document.createElement('ul');
